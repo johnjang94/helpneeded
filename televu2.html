@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../archived/css/televu2.css" rel="stylesheet" />
+    <title>Case Study - TeleVU</title>
+  </head>
+  <body>
+    <img
+      src="../archived/images/logo/logo-edited.jpg"
+      alt="Logo"
+      class="logo"
+    />
+    <nav class="floating-menu">
+      <p class="navigation">NAVIGATION</p>
+      <a class="linksize" href="index.html">Home</a>
+      <a class="linksize" href="about.html">About</a>
+      <a class="linksize" href="contact.html">Contact</a>
+      <a class="linksize" href="codingjourney.html">Coding</a>
+    </nav>
+    <h1>Project Overview</h1>
+    <p class="original">From how the original looked like...</p>
+    <!-- First picture -->
+    <script src="../archived/js/televu_overview1.js"></script>
+    <div id="image-container">
+      <img
+        src="../archived/images/project_overview/original_glassvu.jpg"
+        alt="Original GlassVU picture"
+        class="overview1"
+        id="overview1"
+        onclick="toggleImage()"
+      />
+      <br />
+      <span id="glassvu" class="subtitle">Original GlassVU</span>
+      <p id="message" class="message">
+        &lt;&lt; Original GlassVU &gt;&gt;<br /><br />
+        This is the menu where you can check all your registered devices under
+        your account. For example, you can register your portable laptop, your
+        smartphone or your tablet / iPad on your Netflix account. This is the
+        same concept. You can access your account using your Desktop PC or Mac,
+        your tablet or iPad, and any of your smartphone devices.
+      </p>
+      <div id="close-btn" class="close-btn" onclick="toggleImage()"></div>
+    </div>
+    <!-- Second picture -->
+    <script src="../televu/js/televu_overview2.js"></script>
+    <img
+      src="../archived/images/project_overview/original_reportvu.jpg"
+      alt="Original ReportVU picture"
+      class="overview2"
+      id="overview2"
+      onclick="toggleImage()"
+    />
+    <span id="reportvu" class="subtitle2">Original ReportVU</span>
+    <div id="close-btn2" class="close-btn2" onclick="toggleImage()"></div>
+    <!-- Third picture -->
+    <img
+      src="../archived/images/project_overview/original_video.jpg"
+      alt="Original Video-session picture"
+      class="overview3"
+      id="overview3"
+    />
+    <span id="oldvid" class="subtitle3">Original ReportVU</span>
+  </body>
+</html>
